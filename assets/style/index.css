@@ -128,7 +128,6 @@ input[type=button] {
     padding-top: 15px;
     height: auto;
     display: block;
-    vertical-align: middle;
 }
 
 #show-image {
