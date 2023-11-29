@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=dev-width,initial-scale=1">
+        <meta name="keywords" content="Fake Book">
+        <meta name="author" content="Xiaofang Yang">
+        <meta name="description" content="Fake Book, javascript">
+        <title>Fake Book</title>
+        <link rel="stylesheet" href="./assets/style/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="./assets/script/index.js" type="module"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container flexbox">
+                <div class="div-side-l">
+                    <h1>Fakebook</h1>
+                </div>
+                <div class="div-menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Friends</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Groups</a></li>
+                            <li><a href="#">My ads</a></li>
+                            <li><a href="#">Setting</a></li>
+                        </ul>
+                    </nav>
+                    <span id="menu-icon" >
+                        <i class="fa-solid fa-bars fa-lg"></i>
+                    </span>
+                </div>
+                <div class="div-side-r">
+                    <img src="./assets/image/photo.png" class="logo">
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container center">
+                <div class="set-contact">
+                    <div>
+                        <textarea name="news" id="news" placeholder="What's new, Angie?"></textarea>
+                    </div>
+                    <div class="flexbox div-control">
+                            <label for="btn-file" class="custom-file-input">
+                                <img src="./assets/image/img.png" class="div-img">
+                                <input type="file" name="btn-file" id="btn-file" accept="image/*">
+                                
+                            </label>
+                            <span id="show-image"></span>
+                            <label for="btn-post " class="div-right" >
+                                <input type="button" name="btn-post" id="btn-post" value="POST">
+                            </label>
+                        
+                    </div>
+                </div>
+                    <div class="output">
+                        <div class="message ">
+                            <div class="flexbox">
+                                <div class="msg-logo"><img src="./assets/image/photo.png" class="logo"></div>
+                                <div class="msg-name">Angie</div>
+                                <div class="msg-date">19 22,2023</div>
+                            </div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    
+            </div>  
+        </main>
+        <!--modal-->
+        <div class="modal-container">
+            <div id="model" class="model">
+                <div><h2>User Info</h2></div>
+                <div class="userinfo"></div>
+            </div>
+        </div>
+    </body>
+</html>
